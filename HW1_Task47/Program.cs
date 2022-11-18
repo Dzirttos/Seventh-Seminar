@@ -37,7 +37,7 @@ Console.WriteLine("Please enter the number of rows in array: ");
 int n = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("Please enter the first number from which array elements will be created: ");
 int min = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Please enter the last number from which array elements will be created: ");
+Console.WriteLine("Please enter the last number to which array elements will be created: ");
 int max = Convert.ToInt32(Console.ReadLine());
 
 double[,] UserArray = CreateArray(m, n, min, max);
