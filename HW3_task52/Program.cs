@@ -57,8 +57,8 @@ double FindAverage(int[,] array)
             sum += array[j, i];
         }
         average = Convert.ToDouble(sum / array.GetLength(0));
-        if (i == array.GetLength(1) -1 ) Console.Write($"{average:f1}.");    
-        else Console.Write($"{average:f1}; "); 
+        if (i == array.GetLength(1) - 1) Console.Write($"{average:f1}.");
+        else Console.Write($"{average:f1}; ");
     }
     return average;
 }
